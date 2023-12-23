@@ -1,0 +1,7 @@
+﻿@using SampleApp.Controllers
+@model IEnumerable<Data>
+
+@foreach (var item in Model)
+{
+    <p>@item.Id <span>@item.Name</span></p>
+}
